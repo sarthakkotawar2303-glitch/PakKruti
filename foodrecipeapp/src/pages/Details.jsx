@@ -10,7 +10,7 @@ const Details = () => {
     const controller = new AbortController();
 
     async function fetchRecipeById() {
-      setRecipeDetails(null); // clear stale recipe before fetching new one
+      setRecipeDetails(null); 
       try {
         const res = await fetch(
           `https://forkify-api.herokuapp.com/api/v2/recipes/${id}`,

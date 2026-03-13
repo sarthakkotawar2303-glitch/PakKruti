@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { GlobalContext } from "../RecipeContext/RecipeContext";
-import RecipeCard from "../components/Recipecard ";
+import RecipeCard from "../components/RecipeCard";
 
 const Home = () => {
   const { recipeList, loading, error } = useContext(GlobalContext);
