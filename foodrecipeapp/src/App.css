@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+* { box-sizing: border-box; }
+
+:root {
+  --navy: #0a0f1e;
+  --navy2: #0f1729;
+  --card: #111827;
+  --orange: #f97316;
+  --orange2: #fb923c;
+  --orange-glow: rgba(249, 115, 22, 0.15);
+  --text: #f0f4ff;
+  --muted: #8b9abf;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(249, 115, 22, 0.4);
+}
